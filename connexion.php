@@ -7,6 +7,6 @@ define('DB_NAME', 'nlerond_TP4_Eval');
 
 $bdd = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
-if ($link === false) {
+if ($bdd === false) {
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
